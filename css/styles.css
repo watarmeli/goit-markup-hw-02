@@ -117,6 +117,18 @@ nav .link {
   background-color: var(--dark-bg);
 }
 
+.btn {
+  background-color: var(--accent-cl);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
 .feature h3 {
   font-weight: 700;
   font-size: 14px;
