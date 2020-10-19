@@ -113,6 +113,10 @@ nav .link {
   color: var(--black);
 }
 
+nav .current {
+  color: var(--accent-cl);
+}
+
 .main {
   background-color: var(--dark-bg);
 }
@@ -133,6 +137,22 @@ nav .link {
 .btn:focus {
   background-color: var(--white);
   color: var(--accent-cl);
+}
+
+.portfolio-btn {
+  background-color: var(--light-bg);
+  color: var(--black);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--accent-cl);
+  color: var(--white);
 }
 
 .feature h3 {
